@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-hw01-cli-application",
+  "version": "1.0.0",
+  "description": "hw01",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemoon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yours-mate/nodejs-hw01-CLI-application.git"
+  },
+  "author": "Anton Provorov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yours-mate/nodejs-hw01-CLI-application/issues"
+  },
+  "homepage": "https://github.com/yours-mate/nodejs-hw01-CLI-application#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "uniqid": "^5.4.0",
+    "yargs": "^17.7.1"
+  }
+}
